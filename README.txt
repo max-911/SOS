@@ -1,14 +1,3 @@
-SOS Library PWA
-===============
-Files: index.html, app.js, manifest.webmanifest, sw.js
+SOS Library v3
 
-DEPLOYMENT
-Upload all four files together to the root of an HTTPS static site.
-Suitable choices include GitHub Pages, Cloudflare Pages, or Netlify.
-
-IMPORTANT
-Camera APIs should be tested from the deployed HTTPS URL, not by opening index.html as a local file.
-The ISBN lookup uses Open Library over the Internet. Inventory is stored locally in the browser.
-
-ANDROID
-Open the HTTPS URL in Chrome, grant camera permission, then use Chrome's Add to Home screen / Install app option if offered.
+Upload all files to the root of the GitHub repository, replacing the prior files. Keep catalog.json. Commit changes. GitHub Pages will redeploy. On Android Chrome, refresh the page; if needed clear site data or uninstall/reinstall the PWA so the v3 service worker and baseline catalog load.
