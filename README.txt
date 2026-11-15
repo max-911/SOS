@@ -1,1 +1,1 @@
-SOS Irvine V8.0. catalog.json NOW includes the BAV Irvine books plus the attached Photos/Device inventory. Upload catalog.json too. Visible version is shown at bottom. Main Barcode and Book Tag scan buttons are present.
+SOS Irvine V8.1 cache-reset build. Upload ALL files including catalog-v81.json. Delete old catalog.json if desired. V8.1 uses a new local storage key and a renamed catalog file so Chrome cannot reuse the old 441-record catalog. Expected master catalog: 552 records = 441 Books + 110 Photos + 1 Device.
