@@ -1,1 +1,1 @@
-SOS Irvine V7 correction. Keep the existing V5 catalog.json. This restores Barcode, Book Tag and Year-End scan options. Photos/devices belong in the main inventory; use the included supplemental catalog merge file only if your current local database does not already contain them.
+SOS Irvine V8.0. catalog.json NOW includes the BAV Irvine books plus the attached Photos/Device inventory. Upload catalog.json too. Visible version is shown at bottom. Main Barcode and Book Tag scan buttons are present.
